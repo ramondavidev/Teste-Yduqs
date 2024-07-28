@@ -1,0 +1,29 @@
+.progress-container {
+  width: 100%;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.progress-bar {
+  height: 20px;
+  background-color: #4caf50;
+  transition: width 0.3s ease;
+}
+
+.levels {
+  display: flex;
+  justify-content: space-between;
+}
+
+.level {
+  width: 20%;
+  height: 10px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+}
+
+.level.active {
+  background-color: #58a6ff;
+}

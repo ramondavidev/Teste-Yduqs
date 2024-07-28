@@ -1,0 +1,9 @@
+<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Toes -->
+  <circle cx="30" cy="30" r="15" fill="black"/>
+  <circle cx="60" cy="30" r="15" fill="black"/>
+  <circle cx="45" cy="15" r="15" fill="black"/>
+  <circle cx="45" cy="45" r="15" fill="black"/>
+  <!-- Pad -->
+  <ellipse cx="45" cy="35" rx="15" ry="25" fill="black"/>
+</svg>

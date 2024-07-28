@@ -1,15 +1,14 @@
 const nextJest = require("next/jest");
 
 const createJestConfig = nextJest({
-  // Provide the path to your Next.js app to load next.config.js and .env files in your test environment
+  // Fornece o caminho para seu aplicativo Next.js para carregar os arquivos next.config.js e .env no ambiente de teste
   dir: "./",
 });
 
-// Add any custom config to be passed to Jest
+// Adiciona configurações para o jest
 const customJestConfig = {
   setupFilesAfterEnv: ["<rootDir>/jest.setup.js"],
   testEnvironment: "jsdom",
 };
 
-// createJestConfig is exported this way to ensure that next/jest can load the Next.js config which is async
 module.exports = createJestConfig(customJestConfig);

@@ -2,7 +2,7 @@
 
 ## Visão geral
 
-Bem-vindo ao repositório Dog App! Este é um aplicativo da web criado com React e Next.js que permite aos usuários visualizar informações sobre várias raças de cães e gerenciar suas raças favoritas. Este README fornece uma visão geral do projeto e sua estrutura.
+Bem-vindo ao repositório Dog App! Este é um aplicativo web criado com React e Next.js que permite aos usuários visualizar informações sobre várias raças de cães e gerenciar suas raças favoritas. Este README fornece uma visão geral do projeto e sua estrutura.
 
 ## Visão Geral
 
@@ -46,7 +46,7 @@ Este comando inicia o servidor de desenvolvimento e você pode acessar o aplicat
 
 O projeto segue uma abordagem estruturada para desenvolvimento e organização de componentes. Cada componente é acompanhado por quatro arquivos essenciais:
 
-1. Component File: Contains the main logic and JSX structure of the component.
+1. Arquivo de componente: Contém a lógica principal e a estrutura JSX do componente.
    * Exemplo: Card.component.tsx
 2. Arquivo de estilos: contém os estilos específicos do componente.
    * Exemplo: Card.styles.tsx
